@@ -1,0 +1,243 @@
+/*  
+ body{
+     background-image: url(./bg.png);
+     filter: blur(1px);
+     -webkit-filter: blur(5px);
+ } */
+
+body {
+  /* background-color: orange; */
+  height: 1000px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+hr {
+  margin-right: -34px;
+}
+.head {
+  /* background-color: orchid; */
+  font-size: 54px;
+  font-family: Arial, sans-serif;
+  margin-top: 90px;
+  margin-left: 246px;
+}
+.task {
+  font-weight: 600;
+}
+.font1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 20;
+}
+.head2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  margin-left: 960px;
+  margin-top: -41px;
+}
+.icon {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  border: 1px solid rgb(243, 92, 5);
+  height: 2px;
+  width: 2px;
+  border-radius: 50%;
+  padding: 2px 8px;
+  background-color: orangered;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+.main {
+  /* background-color: rosybrown; */
+  margin: 75px 19px 35px 97px;
+  display: flex;
+  justify-content: space-evenly;
+  /* grid-template-columns: repeat(3, 200px); */
+  flex-wrap: wrap;
+}
+.name {
+  border: 2px solid red;
+  height: 220px;
+  width: 130px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px grey;
+  text-align: center;
+  padding: 33px;
+}
+#t {
+  /* color: red; */
+  color: #ee8208;
+  padding: 7px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.t {
+  color: #ee8208;
+  padding: 9px;
+  font-size: 19px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.del {
+  color: #e6480a;
+  font-weight: bold;
+  margin-right: -52px;
+  text-decoration-line: line-through;
+}
+
+.check {
+  margin-left: -40px;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("./bg.png");
+
+  /* Add the blur effect */
+  filter: blur(4px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 66%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pop {
+  background-color: white;
+  color: red;
+  align-content: center;
+  margin: auto;
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  padding: 35px;
+  margin: -411px 50px 31px 588px;
+  height: 110px;
+  width: 220px;
+  border: 2px red solid;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px grey;
+}
+#btn {
+  font-size: 20px;
+  background-color: rgb(243, 92, 5);
+  color: white;
+  border: 1px red;
+  border-radius: 30px;
+  padding: 6px 28px 6px 28px;
+}
+#txt {
+  color: red;
+  border: 2px solid red;
+  padding: 1px;
+}
+.sm {
+  margin-left: 330px;
+  width: 749px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  text-align: center;
+  margin-top: 70px;
+}
+.hm {
+  font-size: 42px;
+  font-weight: 700;
+}
+.hro {
+  font-family: "Raleway", sans-serif;
+  margin-left: 106px;
+  margin-right: 27px;
+  margin-top: 20px;
+}
+.hrt {
+  font-family: "Raleway", sans-serif;
+  margin-left: 1px;
+  margin-right: 117px;
+  margin-top: 18px;
+}
+.back {
+  color: grey;
+  /* font-family: 'Raleway', sans-serif; */
+  margin-top: 38px;
+  margin-left: 670px;
+  font-size: 30px;
+  word-spacing: 10px;
+}
+.arrow {
+  position: absolute;
+  margin: 6px 10px 10px -40px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  border: 1px solid rgb(243, 92, 5);
+  /* height: 20px;
+    width: 21px; */
+  border-radius: 50%;
+  padding: 1px 5px 5px 5px;
+  background-color: orangered;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+.cm {
+  position: absolute;
+  margin: 32px 10px 10px 497px;
+  align-items: center;
+  border: 2px solid red;
+  height: 280px;
+  width: 260px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px grey;
+  text-align: center;
+  padding: 33px;
+}
+.icons {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  border: 1px solid rgb(243, 92, 5);
+  /* height: 2px;
+    width: 2px; */
+  border-radius: 50%;
+  padding: 2px 8px;
+  background-color: orangered;
+  color: white;
+  font-weight: 500;
+  position: absolute;
+  margin: 98px 10px 10px 101px;
+  text-decoration: none;
+}
+
+#ts {
+    /* color: red; */
+    /* color: #ee8208;
+    padding: 7px;
+    font-size: 20px;
+    text-decoration: none; */
+  }
+  .tss {
+    color: #ee8208;
+    padding: 9px;
+    font-size: 38px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ee8208;
+    padding: 7px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .dels {
+      font-size: 22px;
+    color: #e6480a;
+    font-weight: bold;
+    margin-right: -52px;
+    text-decoration-line: line-through;
+  }
+  
+  .checks {
+      font-size: 22px;
+    margin-left: -40px;
+  }

@@ -1,0 +1,21 @@
+/* .head{
+  display: flex;
+  justify-content: space-between
+  align-items: ;
+  margin-top: 130px;
+} */
+.box{
+  
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.b1{
+    border: 2px solid red ;
+    box-shadow: 2px 2px 2px red;
+    /* height: 200px;
+    width: 170px; */
+    height: 380px;
+width: 250px;
+    padding: 15px;
+}
