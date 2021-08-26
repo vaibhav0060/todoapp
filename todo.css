@@ -10,6 +10,18 @@ body {
   height: 1000px;
   font-family: Arial, Helvetica, sans-serif;
 }
+.revert {
+font-size: 35px;
+align-content: normal;
+margin-bottom: 18px;
+position: absolute;
+margin-top: 111px;
+margin-left: 96px;
+} 
+
+i{
+  color: red;
+}
 a {
   text-decoration: none;
 }
@@ -170,15 +182,15 @@ hr {
 }
 .arrow {
   position: absolute;
-  margin: 6px 10px 10px -40px;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 15px;
-  border: 1px solid rgb(243, 92, 5);
+  margin: 0px 10px 10px -40px;
+  /* font-family: "Times New Roman", Times, serif; */
+  font-size: 30px;
+  /* border: 1px solid rgb(243, 92, 5); */
   /* height: 20px;
     width: 21px; */
-  border-radius: 50%;
+  /* border-radius: 50%; */
   padding: 1px 5px 5px 5px;
-  background-color: orangered;
+  /* background-color: orangered; */
   color: white;
   font-weight: 600;
   text-decoration: none;
